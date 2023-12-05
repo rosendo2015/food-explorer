@@ -1,8 +1,6 @@
-function App() {
+export function Home() {
 
   return (
     <h1>Food Explorer</h1>
   )
 }
-
-export default App
