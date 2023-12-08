@@ -15,7 +15,9 @@ export function SignIn() {
         <Input title="Senha" placeholder="No mínimo 6 caracteres" />
         <Button title="Entrar" />
       </form>
-      <ButtonText title="Criar uma conta" />
+      <footer>
+        <ButtonText title="Criar uma conta" />
+      </footer>
     </Container>
   )
 }

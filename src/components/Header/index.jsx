@@ -1,8 +1,10 @@
-import LogoExplorer from "../../assets/logoExplorer.svg"
+import { IoMdClose } from "react-icons/io";
+import { Container } from "./styles"
 export function Header() {
   return (
     <Container>
-      <img src={LogoExplorer} alt="logo do site" />
+      <IoMdClose size={24} />
+      <p>Menu</p>
     </Container>
   )
 }
