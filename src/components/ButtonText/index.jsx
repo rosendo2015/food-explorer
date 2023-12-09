@@ -1,11 +1,12 @@
-import { LinkText } from "./styles"
+import { ButtonTextStyle } from "./styles"
 
-export function ButtonText({ title, ...rest }) {
+export function ButtonText({ icon: Icon, title, ...rest }) {
   return (
-    <LinkText
+    <ButtonTextStyle
       {...rest}
     >
+      {Icon && <Icon size={32} />}
       {title}
-    </LinkText>
+    </ButtonTextStyle>
   )
 }

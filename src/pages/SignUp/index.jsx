@@ -2,7 +2,7 @@ import { Container } from "./styles"
 import LogoExplorer from "../../assets/logoExplorer.svg"
 import { Input } from "../../components/Input"
 import { Button } from "../../components/Button"
-import { ButtonText } from "../../components/ButtonText"
+import { LinkText } from "../../components/LinkText"
 export function SignUp() {
   return (
     <Container>
@@ -17,7 +17,7 @@ export function SignUp() {
         <Button title="Criar conta" />
       </form>
       <footer>
-        <ButtonText title="Já tenho uma conta" />
+        <LinkText title="Já tenho uma conta" />
       </footer>
     </Container>
   )
