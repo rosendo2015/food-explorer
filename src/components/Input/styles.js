@@ -16,9 +16,11 @@ export const Container = styled.div`
 }
 label{
   color: ${({ theme }) => theme.COLORS.LIGHT_400};
+  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: 100%; /* 16px */
 }
 
 input{

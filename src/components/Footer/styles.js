@@ -1,12 +1,11 @@
 import styled from "styled-components";
 export const Container = styled.div`
-  width: 100%;
+  width: 428px;
   height: 77px;
-  position: absolute;
+  position: fixed;
   background: ${({ theme }) => theme.COLORS.DARK_600};
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 0;  
+  
 
   display: flex;
   align-items: center;

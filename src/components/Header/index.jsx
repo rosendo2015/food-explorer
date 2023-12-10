@@ -10,17 +10,29 @@ export function Header() {
         <IoClose size={24} />
         <p>Menu</p>
       </div>
-      <div className="headerClosed">
-        <IoMenuSharp size={24} />
-        <div className="wrapperLogo">
-          <img src={logoExplorer} width={24} />
-          <h2>food explorer</h2>
+      <div className="header-user">
+        <div className="headerClosed">
+          <IoMenuSharp size={24} />
+          <div className="wrapperLogo">
+            <img src={logoExplorer} width={24} />
+            <h2>food explorer</h2>
+          </div>
+          <div className="wrapperReceipt">
+            <span>0</span>
+            <PiReceiptLight size={32} />
+          </div>
         </div>
-        <div className="wrapperReceipt">
-          <span>0</span>
-          <PiReceiptLight size={32} />
+      </div>
+      <div className="header-auth">
+        <div className="headerClosed">
+          <IoMenuSharp size={24} />
+          <div className="wrapperLogo">
+            <img src={logoExplorer} width={24} />
+            <h2>food explorer</h2>
+            <h5>admin</h5>
+          </div>
+          <div></div>
         </div>
-
       </div>
     </Container>
   )

@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const LinkTextStyle = styled.a`
-
+display: flex;
+align-items: center;
 
 cursor: pointer;
 color: ${({ theme }) => theme.COLORS.LIGHT_300};
-
-text-align: center;
 font-family: Poppins;
 font-size: 14px;
 font-style: normal;

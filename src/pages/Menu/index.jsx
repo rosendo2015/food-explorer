@@ -9,10 +9,14 @@ export function Menu() {
     <Container>
       <Header />
       <main>
-        <form>
+        <form className="user">
           <Input icon={CiSearch} placeholder="Busque por pratos ou ingredientes" />
           <ButtonText title="Sair" />
-
+        </form>
+        <form className="user-auth">
+          <Input icon={CiSearch} placeholder="Busque por pratos ou ingredientes" />
+          <ButtonText title="Novo prato" />
+          <ButtonText title="Sair" />
         </form>
       </main>
       <Footer />

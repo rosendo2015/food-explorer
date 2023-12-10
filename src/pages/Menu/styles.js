@@ -9,8 +9,10 @@ main{
   padding: 36px 28px 13.57px;
 
 }
-form{
-  border-bottom: 1px solid ${({ theme }) => theme.COLORS.DARK_1000};
-  padding-bottom: 13.57px;
+form{  
+  padding: 13.57px;
+}
+form.user-auth{
+  display: none;
 }
 `

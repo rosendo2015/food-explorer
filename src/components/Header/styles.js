@@ -16,7 +16,7 @@ padding: 56px 28px 24px;
   justify-content: space-between;
   
 }
-p{
+.header-user p{
   color: var(--light-light-100, #FFF);
   font-family: Roboto;
   font-size: 21.163px;
@@ -68,5 +68,21 @@ p{
   position: absolute;
   top: -5px;
   right: -5px;
+}
+.header-user .headerClosed{
+  display: none;
+  
+}
+.header-auth .headerClosed{
+  display: flex;
+  
+}
+.header-auth .headerClosed h5{
+  color: ${({ theme }) => theme.COLORS.CAKE_200};  
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 250%;
 }
 `

@@ -5,7 +5,7 @@ export function LinkText({ icon: Icon, title, ...rest }) {
     <LinkTextStyle
       {...rest}
     >
-      {Icon && <Icon size={32} />}
+      {Icon && <Icon />}
       {title}
     </LinkTextStyle>
   )
