@@ -12,22 +12,25 @@ import { IoIosArrowDown } from "react-icons/io";
 import { FaUser } from "react-icons/fa6";
 
 
-export function NewPrato() {
+export function EditePrato() {
   return (
     <Container>
       <Header />
       <main>
         <LinkText icon={IoIosArrowBack} title="voltar" />
-        <h2>Novo prato</h2>
-        <Input icon={MdOutlineFileUpload} title="Imagem do prato" type="file" />
-        <Input icon={FaUser} title="Nome" placeholder="Ex.: Salada Ceasar" type="text" />
+        <h2>Editar prato</h2>
+        <Input icon={MdOutlineFileUpload} title="Imagem do prato" type="file" placeholder="Selecione imagem para alterá-la" />
+        <Input title="Nome" placeholder="Ex.: Salada Ceasar" type="text" />
         <Input icon={IoIosArrowDown} title="Categoria" placeholder="Refeição" />
 
         <Input title="Ingredientes" />
 
         <Input title="Preço" placeholder="R$ 00,00" />
         <Textarea title="Descrição" placeholder="Fale brevemente sobre o prato, seus ingredientes e composição" />
-        <Button title="Salvar alterações" />
+        <div className="wrapperButtons">
+          <Button title="Excluir prato" />
+          <Button title="Salvar alterações" />
+        </div>
       </main>
       <Footer />
     </Container>

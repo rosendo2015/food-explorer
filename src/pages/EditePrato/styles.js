@@ -16,5 +16,9 @@ main{
 
     margin: 24px 0;
   }
+  .wrapperButtons{
+display: flex;
+gap: 20px;
+  }
 }
 `

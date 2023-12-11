@@ -9,15 +9,15 @@ export function Menu() {
     <Container>
       <Header />
       <main>
-        <form className="user">
+        <ul className="user-comum">
           <Input icon={CiSearch} placeholder="Busque por pratos ou ingredientes" />
           <ButtonText title="Sair" />
-        </form>
-        <form className="user-auth">
+        </ul>
+        <ul className="user-admin">
           <Input icon={CiSearch} placeholder="Busque por pratos ou ingredientes" />
           <ButtonText title="Novo prato" />
           <ButtonText title="Sair" />
-        </form>
+        </ul>
       </main>
       <Footer />
     </Container>

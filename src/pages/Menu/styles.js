@@ -9,10 +9,14 @@ main{
   padding: 36px 28px 13.57px;
 
 }
-form{  
+ul{  
   padding: 13.57px;
 }
-form.user-auth{
+ul.user-comum{
+  display: block;
+
+}
+ul.user-admin{
   display: none;
 }
 `

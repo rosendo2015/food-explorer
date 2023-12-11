@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const LinkTextStyle = styled.a`
-display: flex;
-align-items: center;
 
 cursor: pointer;
 color: ${({ theme }) => theme.COLORS.LIGHT_300};

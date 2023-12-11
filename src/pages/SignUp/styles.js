@@ -29,6 +29,7 @@ header h1{
   line-height: normal;
 }
 footer{ 
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 `

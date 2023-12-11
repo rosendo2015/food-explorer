@@ -97,9 +97,9 @@ p{
 }
 }
 .prato-user{
-  display: none;
+  display: block;
 }
 .prato-auth{
-  display: block;
+  display: none;
 }
 `

@@ -60,11 +60,11 @@ span{
   cursor: pointer;
 }
 .card-user{
-  display: none;
+  display: block;
 }
 .card-auth{ 
   margin-top: 50px;
-  display: block;
+  display: none;
   
 }
 
