@@ -13,10 +13,10 @@ ul{
   padding: 13.57px;
 }
 ul.user-comum{
-  display: block;
+  display: none;
 
 }
 ul.user-admin{
-  display: none;
+  
 }
 `
