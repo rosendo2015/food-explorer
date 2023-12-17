@@ -9,7 +9,9 @@ padding: 158px 65px 0;
 
 font-family: Roboto;
 color: #fff;
-
+a{
+  text-decoration: none;
+}
 header{
   display: flex;
   align-items: center;

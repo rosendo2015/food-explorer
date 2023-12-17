@@ -17,7 +17,7 @@ export function SignIn() {
         <Button title="Entrar" />
       </form>
       <footer>
-        <LinkText title="Criar uma conta" />
+        <LinkText href="/register" title="Criar uma conta" />
       </footer>
     </Container>
   )

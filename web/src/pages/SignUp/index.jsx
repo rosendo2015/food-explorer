@@ -17,7 +17,7 @@ export function SignUp() {
         <Button title="Criar conta" />
       </form>
       <footer>
-        <LinkText title="Já tenho uma conta" />
+        <LinkText href="/" title="Já tenho uma conta" />
       </footer>
     </Container>
   )
