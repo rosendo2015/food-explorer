@@ -9,7 +9,7 @@ color: #fff;
 main{
   
   padding: 0 0 144px 24px;
- 
+   
 }
 
 `
