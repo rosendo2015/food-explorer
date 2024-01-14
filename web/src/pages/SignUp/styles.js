@@ -30,6 +30,10 @@ header h1{
   font-weight: 700;
   line-height: normal;
 }
+form input{
+font-size: 20px;
+outline: none;
+}
 footer{ 
   display: flex;
   justify-content: center;

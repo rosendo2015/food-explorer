@@ -9,6 +9,7 @@ padding: 158px 65px 0;
 
 font-family: Roboto;
 color: #fff;
+
 a{
   text-decoration: none;
 }
@@ -30,6 +31,10 @@ header h1{
   font-weight: 700;
   line-height: normal;
 
+}
+form input{
+font-size: 20px;
+outline: none;
 }
 footer{ 
   text-align: center;

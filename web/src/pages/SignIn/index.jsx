@@ -13,7 +13,7 @@ export function SignIn() {
       </header>
       <form >
         <Input title="Email" placeholder="Exemplo: exemplo@exemplo.com.br" />
-        <Input title="Senha" placeholder="No mínimo 6 caracteres" />
+        <Input title="Senha" placeholder="No mínimo 6 caracteres" type="password"/>
         <Button title="Entrar" />
       </form>
       <footer>
