@@ -4,12 +4,12 @@ const DiskStorage = require("../providers/DiskStorage")
 
 class UserAvatarController{
     async update(request, response){
-        const user_id = request.user.DiskStorage
+        const user_id = request.user.id
         const avatarFilename = request.file.filename
 
         const diskStorage = new DiskStorage()
 
-        const user = await knex("user").where({id: user_id}).first()
+        const user = await knex("users").where({id: user_id}).first()
 
         if(!user){
             throw new AppError("Somente usuários autenticados", 401)

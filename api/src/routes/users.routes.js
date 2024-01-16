@@ -9,7 +9,7 @@ const ensureAuthenticated = require("../middleware/ensureAuthenticated")
 const usersRoutes = Router();
 const upload = multer(uploadConfig.MULTER);
 const usersController = new UsersController();
-const userAvatarController = new userAvatarController();
+const userAvatarController = new UserAvatarController();
 
 
 usersRoutes.post("/", usersController.create);
