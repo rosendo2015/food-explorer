@@ -3,8 +3,10 @@ import LogoExplorer from "../../assets/logoExplorer.svg"
 import { Input } from "../../components/Input"
 import { Button } from "../../components/Button"
 import { LinkText } from "../../components/LinkText"
+import { useState } from "react"
 
 export function SignIn() {
+  const [name, setName] = useState("")
   return (
     <Container>
       <header>
