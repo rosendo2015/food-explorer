@@ -7,10 +7,11 @@ function AuthProvider({ children }) {
     async function signIn({ email, password }) {
         try {
             const response = await api.post("/sessions", { email, password })
+            console.log(response)
             const { user, token } = response.data
 
             localStorage.setItem("@foodExplorer:user", JSON.stringify(user))
-            localStorage.setItem("@foodExplorer:user", token)
+            localStorage.setItem("@foodExplorer:token", token)
 
             api.defaults.headers.common['Authorization'] = `Bearer ${token}`
             setData({ user, token })
@@ -22,7 +23,7 @@ function AuthProvider({ children }) {
             }
         }
     }
-    function signOut(){
+    function signOut() {
         localStorage.removeItem("@foodExplorer:token")
         localStorage.removeItem("@foodExplorer:user")
         setData({})
@@ -39,7 +40,7 @@ function AuthProvider({ children }) {
         }
     }, [])
     return (
-        <AuthContext.Provider value={{ signIn, user: data.user,signOut }}>
+        <AuthContext.Provider value={{ signIn, user: data.user, signOut }}>
             {children}
         </AuthContext.Provider>
     )

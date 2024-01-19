@@ -10,7 +10,7 @@ export function SignIn() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
-  const signIn = useAuth()
+  const { signIn } = useAuth()
 
   function handleSignIn() {
     signIn({ email, password })
@@ -27,12 +27,14 @@ export function SignIn() {
           placeholder="Exemplo: exemplo@exemplo.com.br"
           type="text"
           onChange={e => setEmail(e.target.value)}
+          name="name"
         />
         <Input
           title="Senha"
           placeholder="No mínimo 6 caracteres"
           type="password"
           onChange={e => setPassword(e.target.value)}
+          name="email"
         />
         <Button
           title="Entrar"
